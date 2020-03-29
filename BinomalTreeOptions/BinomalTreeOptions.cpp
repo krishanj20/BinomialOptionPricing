@@ -1,20 +1,29 @@
-// BinomalTreeOptions.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <iomanip>
+#include <fstream>
+#include <cmath>
+#include <vector>
+#include <algorithm>
 
+using namespace std;
+/*
+ * Template code for the binomial tree
+ */
 int main()
 {
-    std::cout << "Hello World!\n";
+	// declare and initialise Black Scholes parameters
+
+	// declare and initialise tree paramaters (steps in tree)
+
+	// declare and initialise local variables (u,d,p)
+
+	// create storage for the stock price tree and option price tree
+
+	// setup and initialise the stock price tree
+
+	// setup and initialise the final conditions on the option price tree
+
+	// loop through time levels, setting the option price at each node in the tree
+
+	// output the estimated option price
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
